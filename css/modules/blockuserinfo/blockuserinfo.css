@@ -1,0 +1,117 @@
+/* line 3, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info {
+  float: right;
+  padding: 40px 0;
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 991px) {
+  /* line 3, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info {
+    padding: 21px 0 0 0;
+  }
+}
+/* line 13, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .ttlogin a {
+  font-size: 0;
+  padding: 0;
+}
+/* line 16, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .ttlogin a:hover {
+  background: none;
+}
+/* line 21, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .ttuserheading {
+  cursor: pointer;
+  float: left;
+  height: 24px;
+  margin: 0;
+  background: transparent url("../../../img/templatetrip/sprite.png") no-repeat scroll -4px -285px;
+  width: 35px;
+}
+/* line 28, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .ttuserheading.active, .header_user_info .ttuserheading:hover {
+  background-position: -64px -285px;
+}
+/* line 30, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .ttuserheading.active:before, .header_user_info .ttuserheading:hover:before {
+  width: 35%;
+}
+/* line 35, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .ttuser_link {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 108px;
+  width: 200px;
+  background: white;
+  border: 1px solid #e5e5e5;
+  padding: 10px 15px 15px;
+  z-index: 2;
+}
+@media (max-width: 991px) {
+  /* line 35, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+  .header_user_info .ttuser_link {
+    top: 63px;
+  }
+}
+/* line 48, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .ttuser_link:after {
+  color: #ffffff;
+  content: "\f0d8";
+  font-family: fontawesome;
+  font-size: 22px;
+  position: absolute;
+  top: -17px;
+  right: 10px;
+}
+/* line 57, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .ttuser_link a {
+  padding: 0;
+  line-height: 24px;
+  font-size: 13px;
+}
+/* line 62, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .ttuser_link .ttpermanent-link {
+  padding: 0 0 10px 0;
+}
+/* line 64, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .ttuser_link .ttpermanent-link .ttpermanent-heading {
+  float: none;
+  height: auto;
+  width: auto;
+}
+/* line 68, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .ttuser_link .ttpermanent-link .ttpermanent-heading:before {
+  content: "";
+}
+/* line 73, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info .ttuser_link .ttpermanent-link ul#header_links {
+  background: #ffffff none repeat scroll 0 0;
+  border: medium none;
+  display: block !important;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: static;
+  text-align: left;
+  width: 167px;
+}
+/* line 87, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info a {
+  display: block;
+  padding: 8px 9px 11px 8px;
+  cursor: pointer;
+  color: #777777;
+  line-height: 18px;
+  font-size: 13px;
+}
+/* line 94, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.header_user_info a:hover, .header_user_info a.active {
+  color: black;
+}
+
+/* line 100, ../../../sass/modules/blockuserinfo/blockuserinfo.scss */
+.ttuser_link > li#header_link_bookmark {
+  margin: 0 0 10px;
+}

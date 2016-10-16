@@ -1,0 +1,109 @@
+/* line 5, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+.socialsharing_product button {
+  border: 1px solid #e5e5e5;
+  color: #777777;
+  display: inline-block;
+  background: transparent;
+  float: none;
+  margin: 2px 0 5px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  width: 24%;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 5, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+  .socialsharing_product button {
+    padding: 8px 0;
+  }
+}
+@media (max-width: 991px) {
+  /* line 5, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+  .socialsharing_product button {
+    width: 38%;
+  }
+}
+@media (max-width: 480px) {
+  /* line 5, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+  .socialsharing_product button {
+    width: 49%;
+  }
+}
+/* line 24, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+.socialsharing_product button.focus {
+  background: none !important;
+}
+/* line 27, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+.socialsharing_product button i {
+  width: 22px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 27, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+  .socialsharing_product button i {
+    width: 14px;
+  }
+}
+
+/* line 39, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+.btn-facebook:hover, .btn-twitter:hover, .btn-google-plus:hover, .btn-pinterest:hover {
+  border-color: white;
+}
+
+/* line 45, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+.btn-facebook i {
+  color: #435f9f;
+}
+/* line 48, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+.btn-facebook:hover {
+  color: white;
+  background-color: #435f9f;
+  border-color: #435f9f;
+}
+/* line 52, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+.btn-facebook:hover i {
+  color: white;
+}
+
+/* line 59, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+.btn-twitter i {
+  color: #00aaf0;
+}
+/* line 62, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+.btn-twitter:hover {
+  color: white;
+  background-color: #00aaf0;
+  border-color: #00aaf0;
+}
+/* line 66, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+.btn-twitter:hover i {
+  color: white;
+}
+
+/* line 73, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+.btn-google-plus i {
+  color: #e04b34;
+}
+/* line 76, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+.btn-google-plus:hover {
+  color: white;
+  background-color: #e04b34;
+  border-color: #e04b34;
+}
+/* line 80, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+.btn-google-plus:hover i {
+  color: white;
+}
+
+/* line 87, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+.btn-pinterest i {
+  color: #ce1f21;
+}
+/* line 90, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+.btn-pinterest:hover {
+  color: white;
+  background-color: #ce1f21;
+  border-color: #ce1f21;
+}
+/* line 94, ../../../../sass/modules/socialsharing/css/socialsharing.scss */
+.btn-pinterest:hover i {
+  color: white;
+}

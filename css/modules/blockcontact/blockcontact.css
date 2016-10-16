@@ -1,0 +1,114 @@
+/* line 3, ../../../sass/modules/blockcontact/blockcontact.scss */
+.shop-phone {
+  float: right;
+  margin: 0 0 0 16px;
+  padding: 12px 0 7px 30px;
+  position: relative;
+  font-size: 0;
+}
+/* line 9, ../../../sass/modules/blockcontact/blockcontact.scss */
+.shop-phone:before {
+  font-family: "FontAwesome";
+  content: "\f095 ";
+  font-size: 14px;
+  left: 15px;
+  color: #cccccc;
+  position: absolute;
+  top: 12px;
+  transform: rotate(45deg);
+}
+@media (max-width: 480px) {
+  /* line 3, ../../../sass/modules/blockcontact/blockcontact.scss */
+  .shop-phone {
+    display: none;
+  }
+}
+/* line 22, ../../../sass/modules/blockcontact/blockcontact.scss */
+.shop-phone .ttcontact-phone {
+  background: transparent;
+}
+/* line 25, ../../../sass/modules/blockcontact/blockcontact.scss */
+.shop-phone i {
+  font-size: 21px;
+  line-height: 21px;
+  display: none;
+  color: #cccccc;
+  padding-right: 7px;
+}
+/* line 32, ../../../sass/modules/blockcontact/blockcontact.scss */
+.shop-phone strong {
+  font: 400 14px/18px "Open Sans", Helvetica, sans-serif;
+  color: #cccccc;
+}
+
+/* line 37, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact-link {
+  float: right;
+  border-left: 1px solid #515151;
+  display: none;
+}
+@media (max-width: 479px) {
+  /* line 37, ../../../sass/modules/blockcontact/blockcontact.scss */
+  #contact-link {
+    text-align: center;
+  }
+}
+/* line 44, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact-link a {
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding: 8px 10px 11px 10px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  line-height: 18px;
+}
+@media (max-width: 479px) {
+  /* line 44, ../../../sass/modules/blockcontact/blockcontact.scss */
+  #contact-link a {
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+/* line 57, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact-link a:hover, #contact-link a.active {
+  background: #2b2b2b;
+}
+@media (max-width: 767px) {
+  /* line 61, ../../../sass/modules/blockcontact/blockcontact.scss */
+  #contact-link.is_logged {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 67, ../../../sass/modules/blockcontact/blockcontact.scss */
+  #contact_block {
+    margin-bottom: 20px;
+  }
+}
+/* line 71, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact_block .label {
+  display: none;
+}
+/* line 74, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact_block .block_content {
+  color: #888888;
+}
+/* line 77, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact_block p {
+  margin-bottom: 4px;
+}
+/* line 80, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact_block p.tel {
+  font: 400 17px/21px "Open Sans", Helvetica, sans-serif;
+  color: #cccccc;
+  margin-bottom: 6px;
+}
+/* line 84, ../../../sass/modules/blockcontact/blockcontact.scss */
+#contact_block p.tel i {
+  font-size: 25px;
+  vertical-align: -2px;
+  padding-right: 10px;
+}

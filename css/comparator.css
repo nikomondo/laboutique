@@ -1,0 +1,270 @@
+/********************************************************************
+					Compare Page Styles
+********************************************************************/
+/* line 10, ../sass/comparator.scss */
+table#product_comparison tbody tr td.product-block {
+  vertical-align: top;
+  padding: 14px 19px 19px;
+  text-align: center;
+}
+/* line 17, ../sass/comparator.scss */
+table#product_comparison tbody tr td.td_empty,
+table#product_comparison tbody tr td.feature-name, table#product_comparison tbody tr.comparison_header {
+  background: white;
+  color: #111111;
+}
+/* line 21, ../sass/comparator.scss */
+table#product_comparison tbody tr td.comparison_infos {
+  text-align: center;
+}
+/* line 23, ../sass/comparator.scss */
+table#product_comparison tbody tr td.comparison_infos div.center {
+  margin: 0 auto;
+  width: 80px;
+}
+/* line 28, ../sass/comparator.scss */
+table#product_comparison tbody tr td.td_empty {
+  vertical-align: bottom;
+}
+/* line 30, ../sass/comparator.scss */
+table#product_comparison tbody tr td.td_empty > span {
+  font: 600 18px/22px "Dosis", sans-serif;
+  text-transform: uppercase;
+  color: #555454;
+}
+/* line 38, ../sass/comparator.scss */
+table#product_comparison .remove {
+  text-align: right;
+  padding: 0 0 15px 0;
+}
+/* line 41, ../sass/comparator.scss */
+table#product_comparison .remove a {
+  font-size: 23px;
+  line-height: 23px;
+  color: #c0c0c0;
+}
+/* line 45, ../sass/comparator.scss */
+table#product_comparison .remove a:hover {
+  color: black;
+}
+/* line 50, ../sass/comparator.scss */
+table#product_comparison .product-image-block {
+  display: inline-block;
+  position: relative;
+}
+/* line 53, ../sass/comparator.scss */
+table#product_comparison .product-image-block .product_image {
+  display: inline-block;
+  margin: 0 0 8px 0;
+}
+/* line 56, ../sass/comparator.scss */
+table#product_comparison .product-image-block .product_image img {
+  width: 100%;
+}
+/* line 61, ../sass/comparator.scss */
+table#product_comparison h5 {
+  padding: 0 0 8px 0;
+  min-height: 54px;
+}
+/* line 65, ../sass/comparator.scss */
+table#product_comparison .prices-container {
+  padding: 0 0 5px 0;
+}
+/* line 68, ../sass/comparator.scss */
+table#product_comparison .comparison_availability_statut {
+  display: none;
+  font-weight: 700;
+  color: #060;
+}
+/* line 73, ../sass/comparator.scss */
+table#product_comparison .product_discount {
+  padding-top: 5px;
+}
+/* line 75, ../sass/comparator.scss */
+table#product_comparison .product_discount .reduced-price {
+  color: red;
+  font-weight: 700;
+}
+/* line 80, ../sass/comparator.scss */
+table#product_comparison .product_desc {
+  padding: 0 0 12px 0;
+}
+/* line 84, ../sass/comparator.scss */
+table#product_comparison .button-container a, table#product_comparison .button-container > span {
+  margin-bottom: 10px;
+}
+/* line 88, ../sass/comparator.scss */
+table#product_comparison .comparison_unit_price {
+  font-size: 17px;
+  font-family: "Dosis", sans-serif;
+  color: #272727;
+  font-style: italic;
+}
+/* line 94, ../sass/comparator.scss */
+table#product_comparison .product-rating {
+  width: 80px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* line 101, ../sass/comparator.scss */
+table#product_comparison .comparison_feature .product_name {
+  display: none;
+}
+
+/* line 108, ../sass/comparator.scss */
+.footer_link {
+  margin: 0 0 20px 0;
+}
+
+/* line 112, ../sass/comparator.scss */
+#stOCClose {
+  width: 29px !important;
+  height: 29px !important;
+}
+
+/* line 119, ../sass/comparator.scss */
+.stButton .stFb,
+.stButton .stTwbutton,
+.stButton .stMainServices,
+.stButton .stButton_gradient {
+  height: 22px !important;
+}
+
+/* line 124, ../sass/comparator.scss */
+.share strong {
+  display: block;
+  margin-bottom: 10px;
+}
+/* line 129, ../sass/comparator.scss */
+.share > div {
+  margin-bottom: 8px;
+}
+@media (min-width: 1200px) {
+  /* line 123, ../sass/comparator.scss */
+  .share {
+    position: relative;
+    top: -350px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 123, ../sass/comparator.scss */
+  .share {
+    position: relative;
+    top: -260px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 123, ../sass/comparator.scss */
+  .share {
+    position: relative;
+    top: -245px;
+  }
+}
+
+/* line 146, ../sass/comparator.scss */
+.stArrow {
+  display: none !important;
+}
+
+/***** IE code ****/
+/* line 152, ../sass/comparator.scss */
+.ie8 table#product_comparison .product-image-block .product_image img {
+  width: auto;
+}
+
+/**** responsive code ******/
+@media (max-width: 992px) {
+  /* line 160, ../sass/comparator.scss */
+  #columns table#product_comparison tbody tr td.td_empty span {
+    font-size: 14px;
+  }
+  /* line 163, ../sass/comparator.scss */
+  #columns table#product_comparison tbody tr td.product-block {
+    padding: 14px;
+  }
+  /* line 167, ../sass/comparator.scss */
+  #columns table#product_comparison .button.ajax_add_to_cart_button,
+  #columns table#product_comparison .button.lnk_view {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 179, ../sass/comparator.scss */
+  #product_comparison table,
+  #product_comparison thead,
+  #product_comparison tbody,
+  #product_comparison th,
+  #product_comparison td,
+  #product_comparison tr {
+    display: block;
+  }
+
+  /* line 183, ../sass/comparator.scss */
+  #product_comparison thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  /* line 189, ../sass/comparator.scss */
+  #product_comparison tr {
+    overflow: hidden;
+  }
+  /* line 191, ../sass/comparator.scss */
+  #product_comparison tr:last-child {
+    border-bottom: none;
+  }
+  /* line 193, ../sass/comparator.scss */
+  #product_comparison tr:last-child td {
+    border-bottom: none;
+  }
+
+  /* line 199, ../sass/comparator.scss */
+  #product_comparison td {
+    border: none;
+    position: relative;
+    white-space: normal;
+    float: left;
+    width: 33.33%;
+  }
+  /* line 205, ../sass/comparator.scss */
+  #product_comparison td.td_empty {
+    width: 100% !important;
+    clear: both;
+  }
+  /* line 209, ../sass/comparator.scss */
+  #product_comparison td:last-child {
+    border-bottom: none;
+  }
+
+  /* line 216, ../sass/comparator.scss */
+  #product_comparison .comparison_feature .feature-name {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+}
+@media (max-width: 480px) {
+  /* line 226, ../sass/comparator.scss */
+  #product_comparison td {
+    float: none;
+    width: 100%;
+  }
+
+  /* line 233, ../sass/comparator.scss */
+  #product_comparison .comparison_feature td {
+    float: left;
+    width: 50%;
+  }
+  /* line 237, ../sass/comparator.scss */
+  #product_comparison .comparison_feature .feature-name {
+    width: 100%;
+    clear: both;
+  }
+  /* line 241, ../sass/comparator.scss */
+  #product_comparison .comparison_feature .product-name {
+    width: 50%;
+    float: left;
+    display: block;
+  }
+}

@@ -1,0 +1,47 @@
+/* line 4, ../sass/my-account.scss */
+#my-account .addresses-lists {
+  margin-bottom: 15px;
+}
+/* line 8, ../sass/my-account.scss */
+#my-account ul.myaccount-link-list li {
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+/* line 11, ../sass/my-account.scss */
+#my-account ul.myaccount-link-list li a {
+  display: block;
+  overflow: hidden;
+  font: 400 14px/20px "Dosis", sans-serif;
+  color: #777777;
+  text-decoration: none;
+  position: relative;
+}
+/* line 18, ../sass/my-account.scss */
+#my-account ul.myaccount-link-list li a i {
+  font-size: 14px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 52px;
+  height: 100%;
+  padding: 17px;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  border-right: none;
+}
+/* line 30, ../sass/my-account.scss */
+#my-account ul.myaccount-link-list li a span {
+  display: block;
+  padding: 13px 15px 15px 17px;
+  overflow: hidden;
+  border: 1px solid #e5e5e5;
+  margin-left: 52px;
+}
+/* line 37, ../sass/my-account.scss */
+#my-account ul.myaccount-link-list li a:hover {
+  color: #111111;
+}
+/* line 39, ../sass/my-account.scss */
+#my-account ul.myaccount-link-list li a:hover > i, #my-account ul.myaccount-link-list li a:hover span {
+  border-color: #111111;
+}

@@ -1,0 +1,124 @@
+/**********************************************************
+				Authentication Styles
+**********************************************************/
+/* line 8, ../sass/authentication.scss */
+#account-creation_form .id_state,
+#account-creation_form .dni,
+#account-creation_form .postcode {
+  display: none;
+}
+
+/* line 12, ../sass/authentication.scss */
+#create-account_form {
+  min-height: 297px;
+}
+/* line 14, ../sass/authentication.scss */
+#create-account_form p {
+  margin-bottom: 8px;
+}
+/* line 17, ../sass/authentication.scss */
+#create-account_form .form-group {
+  margin: 0 0 20px 0;
+}
+
+/* line 22, ../sass/authentication.scss */
+#login_form {
+  min-height: 297px;
+}
+/* line 25, ../sass/authentication.scss */
+#login_form .form-group.lost_password {
+  margin: 14px 0 15px 32%;
+  width: 70%;
+}
+@media (max-width: 1440px) and (min-width: 1199px) {
+  /* line 25, ../sass/authentication.scss */
+  #login_form .form-group.lost_password {
+    margin: 14px 0 15px 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 25, ../sass/authentication.scss */
+  #login_form .form-group.lost_password {
+    margin: 14px 0 15px 0;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 25, ../sass/authentication.scss */
+  #login_form .form-group.lost_password {
+    margin: 14px 0 15px 0%;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 25, ../sass/authentication.scss */
+  #login_form .form-group.lost_password {
+    margin: 14px 0 15px 30% !important;
+  }
+}
+@media (max-width: 480px) {
+  /* line 25, ../sass/authentication.scss */
+  #login_form .form-group.lost_password {
+    margin: 14px 0 15px 0;
+  }
+}
+/* line 46, ../sass/authentication.scss */
+#login_form .form-group.lost_password a {
+  text-decoration: underline;
+}
+/* line 48, ../sass/authentication.scss */
+#login_form .form-group.lost_password a:hover {
+  text-decoration: none;
+}
+
+/* line 56, ../sass/authentication.scss */
+#login_form .form-control, #create-account_form .form-control {
+  max-width: 271px;
+  border-color: #e5e5e5;
+}
+
+/* line 61, ../sass/authentication.scss */
+.form_content .submit {
+  margin: 0 0 0 32%;
+  float: left;
+  clear: both;
+}
+@media (max-width: 1440px) and (min-width: 1199px) {
+  /* line 61, ../sass/authentication.scss */
+  .form_content .submit {
+    margin: 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 61, ../sass/authentication.scss */
+  .form_content .submit {
+    margin: 0 0 0 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 61, ../sass/authentication.scss */
+  .form_content .submit {
+    margin: 0 0 0 0%;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 61, ../sass/authentication.scss */
+  .form_content .submit {
+    margin: 0px 0 0 30% !important;
+  }
+}
+@media (max-width: 480px) {
+  /* line 61, ../sass/authentication.scss */
+  .form_content .submit {
+    margin: 0 0 0 0%;
+  }
+}
+
+/* line 82, ../sass/authentication.scss */
+#account-creation_form #submitAccount {
+  margin: 30px 0 10px;
+}
+
+/* line 83, ../sass/authentication.scss */
+#account-creation_form .pull-right.equired {
+  margin: 40px;
+}

@@ -1,0 +1,609 @@
+@import "compass";
+@import "theme_variables";
+
+.ttsmartblog{
+	float:none;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	margin-bottom: 60px;
+    margin-top: 25px;
+	padding:0;  
+	@media (max-width: $screen-sm-max) {// max 991px 
+		margin-bottom:20px;
+	}
+	@media (max-width: $screen-xs-max) {// max 767px 
+		padding:0 15px;
+	}
+	.title_block{
+		margin:30px 0 50px;
+		float:left;
+		width:100%;
+		text-align:center;
+		@media (max-width: $screen-sm-max) {// max 991px 
+			margin:30px 0 20px;
+		}
+		@media (min-width: $screen-xs) and (max-width: $screen-xs-max) {// min 480px max 767px 
+			margin:30px 0;
+		}
+		@media (max-width: $screen-xs ) {// max 480px 
+			margin:30px 0;
+		}
+	}
+	.blog-content{
+		float:left;
+		width:100%;
+		.block_content{
+			margin-bottom: 40px;
+			@media (min-width: $screen-sm) and (max-width: $screen-sm-max) {// min 768px max 991px 
+				margin-bottom:30px;
+			}
+			@media (max-width: $screen-xs ) {// max 480px 
+				margin-bottom:10px;
+			}
+		}
+	}
+	.customNavigation{}
+	#ttsmartblog-carousel{
+		width:100%;
+		position:relative;
+		li{
+			.ttblog-content{
+				padding:0 0 0 30px;
+				margin:0;
+				@media (max-width: $screen-sm-max) {// max 991px 
+						padding:10px 0 0 0!important;
+				}
+			}
+		}
+	}
+}
+
+.ttblog-content{
+	li{
+		float:left;
+		width:100%;
+		position:relative;
+		text-align:left !important;
+		@media (min-width: $screen-xs) and (max-width: $screen-xs-max) {// min 480px max 767px 
+			padding:10px !important;
+		}
+		.ttblog-content{
+			float:left;
+			margin:6px 0 0;
+			@media (max-width: $screen-sm-max) {// max 991px 
+				width:100%;
+				padding:0 !important;
+			}
+			.ttblog_date{
+				width:100%;
+				margin: 0 0 10px;
+				float:left;
+				display:none;
+				.ttday_month {
+					color: $base-text-color;
+					display: inline-block;
+					float: none;
+					font: 400 12px/15px $font-family;
+					margin: 0 0 0 2px;
+					text-transform: uppercase;
+					vertical-align: baseline;
+				}
+				.ttday_date {
+					color: $base-text-color;
+					display: inline-block;
+					float: none;
+					font: 700 18px/18px $font-family;
+				}
+				.ttday_year{
+					color: $base-text-color;
+					display: inline-block;
+					float: none;
+					font: 400 12px/15px $font-family;
+				}
+			}
+			.ttblog-title{
+				font:400 22px/28px $font-custom;
+				text-transform: capitalize;
+				margin:0 0 10px 0;
+				@media (max-width: $screen-xs ) {// max 480px 
+					font-size:20px;
+				}
+				a{
+					color:#222222;
+					&:hover{
+						color:$hover-color;
+					}
+				}
+			}
+			.ttblog-desc{
+				float:left;
+				width:100%;
+				font-size:14px;
+				letter-spacing:0.4px;
+				line-height:24px;
+			}
+			.ttblog-detail{
+				float:left;
+				width:100%;
+				position:relative;
+				margin: 10px 0 0;
+				display:none;
+				padding: 15px 0 0;
+				.ttviews, .ttcomment{
+					float:left;
+					font:400 12px/18px $font-family;
+					color:$base-text-color;
+					text-transform:capitalize;
+					a{
+						color:$base-text-color;
+					}
+					i{
+						font-size:14px;
+					}
+				}
+				.ttcomment{
+					margin:0 0 0 10px;
+					&:hover{
+						color:$hover-color;
+						a{
+							color:$hover-color;
+						}
+					}
+				}
+				.ttreadmore-link{
+					i{
+						width: 20px;
+						vertical-align:middle;
+					}
+					&:hover{
+						color:$hover-color;
+					}
+				}
+			}
+			.tthover-content{
+				float:left;
+				width:100%;
+				@media (max-width: $screen-xs-max) {// max 767px
+					bottom:0px;
+				}
+				.ttviews, .ttcomment, .ttauthor, .ttcategory, .ttpostby{
+					float:left;
+				}
+				.ttviews, .ttcomment, .ttauthor, .ttcategory, .ttpostby, .ttblog-detail{
+					font:400 13px/18px $font-family;
+					text-transform:capitalize;
+					margin:0 10px 0 0;
+					letter-spacing:0.4px;
+					color:$base-text-color;
+					a{
+						&:hover{
+							text-decoration:underline;
+						}
+					}
+					i{
+						font-size:14px;
+					}
+				}
+				.ttblog-detail{
+					float:right;
+					letter-spacing: 0.4px;
+					color:$base-text-color;
+				}
+				.ttcomment{
+					&:hover{
+						color: $base-text-color;
+						a{
+							color: $base-text-color;
+						}
+					}
+				}
+			}
+		}
+		.ttblog_image_holder{
+			float:left;
+			position:relative;
+			padding:0;
+			overflow:hidden;
+			@media (max-width: $screen-sm-max) {// max 991px 
+				width:100%;
+			}
+			img{
+				max-width:100%;
+				height:auto;
+				width:100%;
+			}
+			.ttblog-hover{
+				height: 100%;
+				position: absolute;
+				top: 0;
+				transition: all 0.4s ease-in-out 0s;
+				width: 100%;
+			}
+			.ttbloglinks{
+				bottom: 0;
+				height: 42px;
+				left: 0;
+				margin: auto;
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 88px;
+				a{
+					width:40px;
+					height:40px;
+					border: 2px solid #fff;
+					color: #ffffff;
+					float:left;
+					border-radius:50%;
+					transform: scale(1.5);
+					opacity:0;
+					transition: all 0.4s ease 0s;
+					@media (max-width: $screen-xs-max) {// max 767px
+						transform: scale(1);
+						opacity: 1;
+					}
+					i{
+						float: left;
+						font-size: 14px;
+						font-weight: normal;
+					}
+					&.ttzoom{
+						margin:0 8px 0 0;	
+						padding: 11px 12px;
+					}
+					&.ttreadmore-link{
+						padding:12px;
+					}
+					&:hover{
+						background:$hover-bg;
+						border-color:$hover-bg;
+					}
+				}
+			}
+			.ttblog-desc{
+				text-align:left;
+				background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+				bottom: 0;
+				color: #bbbbbb;
+				position: absolute;
+				padding:10px;
+				bottom:-60px;
+				transition:all 400ms ease-in-out;
+				p{
+					margin:0;
+					line-height:20px;
+				}
+			}
+			.tthover-content{
+				float:left;
+				width:100%;
+				background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+				bottom: -40px;
+				padding: 10px;
+				position: absolute;
+				transition: all 300ms ease-in-out 0s;
+				@media (max-width: $screen-xs-max) {// max 767px
+					bottom:0px;
+				}
+				.ttviews, .ttcomment, .ttauthor, .ttcategory, .ttpostby{
+					float:left;
+				}
+				.ttviews, .ttcomment, .ttauthor, .ttcategory, .ttpostby, .ttblog-detail{
+					font:400 13px/18px $font-family;
+					text-transform:capitalize;
+					margin:0 10px 0 0;
+					letter-spacing:0.4px;
+					color:$light-text-color;
+					a{
+						color:$light-text-color;
+						&:hover{
+							text-decoration:underline;
+						}
+					}
+					i{
+						font-size:14px;
+					}
+				}
+				.ttblog-detail{
+					float:right;
+					letter-spacing: 0.4px;
+					color:$base-text-color;
+				}
+				.ttcomment{
+					&:hover{
+						color:$light-text-color;
+						a{
+							color:$light-text-color;
+						}
+					}
+				}
+			}
+		}
+		
+		&:hover{
+			@media (min-width: $screen-sm) {// min 768px
+				.ttblog-content{
+					.ttblog-title{
+						a{
+							color:$hover-color;
+						}
+					}
+				}
+				.ttblog_image_holder{
+					.ttblog-hover{
+						background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+					}
+					.tthover-content{
+						bottom:0;
+					}
+					.ttbloglinks{
+						a{
+							transform: scale(1);
+							opacity:1;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/* ---------------------------- Start category,allblog --------------------------- */
+
+
+#smartblogcat{
+	li{
+		margin:0 0 40px;
+		position:relative;
+		&:before{
+			background: rgba(0, 0, 0, 0) url("../../../../img/templatetrip/border.png") repeat scroll 0 0;
+			bottom: 0;
+			content: "";
+			float: left;
+			height: 1px;
+			left: 0;
+			position: absolute;
+			right: 0;
+			width: 100%;
+		}
+		&:last-child{
+			&:before{
+				display:none;
+			}
+		}
+		
+		.ttblog-content{
+			text-align:left;
+			.ttblog-desc{
+				margin:0 0 20px;
+			}
+			.ttblog-detail{
+				display:block;
+				.ttreademore{
+					a{
+						color:$base-body-color;
+						&:hover{
+							color:$hover-color;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/* ---------------------------- End category,allblog --------------------------- */
+
+
+/* ---------------------------- Start commentpage --------------------------- */
+
+#content.ttblog-content{
+	li{
+		text-align:left;
+		.ttblog-content{
+			margin:15px 0 30px;
+		}
+	}
+}
+
+#respond{
+	float:left;
+	width:100%;
+	padding:0 10px;
+	.comment-reply-title{
+		font:700 14px/18px $font-family;
+		color:$base-text-color;
+		text-transform:uppercase;
+	}
+	#commentInput{
+		table{
+			width:100%;
+			margin:0 0 30px;
+			td{
+				padding:10px 10px 10px  0;
+				input{
+					max-width: 250px;
+				}
+			}
+		}
+		.ttsubmit-comment{
+			float:right;
+			#submitComment{
+				&:hover{
+					background:$base-body-color;
+					border-color:$base-body-color;
+					color:$light-text-color;
+				}
+			}
+		}
+	}
+}
+
+#articleComments{
+	border:none;
+	border-radius:0;
+	background:$ttblog-bg;
+	padding:20px;
+	margin:0px 0 30px;
+	box-shadow:none;
+	float:left;
+	width:100%;
+	.tttotal-comment{
+		font:700 16px/18px $font-family;
+		text-transform:uppercase;
+		margin:0;
+		color:$base-body-color;
+	}
+	#comments{
+		margin-bottom:20px;
+		float:left;
+		width:100%;
+		background:$ttblog-bg;
+		#respond {
+			border-top: none;
+			float: left;
+			margin-top: 25px;
+			width: 100%;
+		}
+	}
+	.tm_commenttitle{
+		font:700 16px/22px $font-custom;
+		color: $base-text-color;
+		margin: 0 0 15px;
+	}
+	#comments .commentList{
+		margin:10px 0;
+		float:left;
+		width:100%;
+		@media (max-width: $screen-xs-max){ // max 767px  
+			float:left;
+			width:100%;
+			overflow:auto;
+		}
+		> ul{
+			/* border-bottom:1px solid $common-border-color; */
+			.commentList{
+				background:$custom-navigation-bg;
+				float: left;
+				padding: 7px;
+			}
+			> div > li{
+				margin: 0;
+				padding:20px 20px 10px 100px;
+			}
+		}
+	}
+	.commentList li{
+		border:none;
+		float:left;
+		@include border-radius(0);
+		position:relative;
+		background:$ttblog-bg;
+		padding:20px 20px 20px 110px;
+		margin:0;
+		.reply {
+			margin:0;	
+			text-align:left;
+			a{
+				background:none;
+				cursor:pointer;
+				border-radius: 0;
+				border:none;
+				font:700 14px/16px $font-family;
+				text-decoration:underline;
+				padding:0;
+				&:hover{
+					background:none;
+					color:$description-color;
+				}
+			}
+		}
+		.tmblogtitle{
+			float:left;
+			width:100%;
+			.name{
+				float:left;
+				margin:0 15px 0 0;
+				color:$base-text-color;
+				font-weight: 600;
+			}
+			.blog_date {
+				color: #afafaf;
+				font-size: 12px;
+				line-height: 18px;
+			}
+		}
+		.blog_desc{
+			color:#999999;
+		}
+		.comment-reply-link{
+			background:$light-background;
+			font:700 11px/16px $font-family;
+			padding:6px 10px;
+			border:1px solid $link-hover-color;
+			color: $link-hover-color;
+			@include border-radius(4px);
+			&:hover{
+				border-color: red;
+				background: $base-body-color;
+				color: $hover-color;
+			}
+		}
+		.avatar{
+			background:none;
+			position:absolute;
+			left:10px;
+			top:20px;
+			@include border-radius(50%);
+			padding:0;
+			border: 5px solid #e5e5e5;
+		}
+	}
+}
+
+
+/* ---------------------------- End commentpage --------------------------- */
+
+
+#ttblogCategory{
+	float:left;
+	width:100%;
+	margin:0 0 20px 0;
+	background:$left-bg;
+	img{
+		width: 32%;
+		height:auto;
+		float:left;
+		@media (min-width: $screen-xs) and (max-width: $screen-xs-max) {// min 480px max 767px 
+			padding: 30px 30px 0;
+			width: 62%;
+		}
+		@media (max-width: $screen-xs ) {// max 480px 
+			padding: 30px 30px 0;
+			width: 100%;
+		}
+	}
+	.ttblog-content{
+		float: left;
+		padding: 20px 0 20px 20px;
+		width: 68%;
+		@media (max-width: $screen-xs-max) {// max 767px 
+			width:100%;
+			padding: 20px;
+		}
+		.ttblog-title{
+			text-transform:uppercase;
+			margin:0 0 10px;
+			font:700 14px/18px $font-custom;
+			a{
+				color:$base-body-color;
+			}
+		}
+		.ttblog-desc{
+			
+		}
+	}
+}

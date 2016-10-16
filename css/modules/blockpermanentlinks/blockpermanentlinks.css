@@ -1,0 +1,94 @@
+/* block top links */
+/* line 5, ../../../sass/modules/blockpermanentlinks/blockpermanentlinks.scss */
+.ttpermanent-link {
+  float: left;
+  position: relative;
+  text-align: center;
+}
+/* line 9, ../../../sass/modules/blockpermanentlinks/blockpermanentlinks.scss */
+.ttpermanent-link .ttpermanent-heading {
+  margin: 0;
+  float: right;
+  height: 20px;
+  width: 45px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  /* line 9, ../../../sass/modules/blockpermanentlinks/blockpermanentlinks.scss */
+  .ttpermanent-link .ttpermanent-heading {
+    padding: 3px 0;
+  }
+}
+/* line 18, ../../../sass/modules/blockpermanentlinks/blockpermanentlinks.scss */
+.ttpermanent-link .ttpermanent-heading:before {
+  content: "\f0c9";
+  font-family: "FontAwesome";
+  font-size: 17px;
+  height: 30px;
+  width: 35px;
+}
+/* line 26, ../../../sass/modules/blockpermanentlinks/blockpermanentlinks.scss */
+.ttpermanent-link .ttpermanent-heading:hover:before {
+  color: #444444;
+}
+/* line 31, ../../../sass/modules/blockpermanentlinks/blockpermanentlinks.scss */
+.ttpermanent-link ul#header_links {
+  list-style-type: none;
+  float: right;
+  margin-top: 5px;
+  border: 1px solid #e5e5e5;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 25px;
+  width: 150px;
+  text-align: left;
+  background: #ffffff;
+  z-index: 2;
+  padding: 8px 15px;
+}
+@media (max-width: 767px) {
+  /* line 31, ../../../sass/modules/blockpermanentlinks/blockpermanentlinks.scss */
+  .ttpermanent-link ul#header_links {
+    top: 25px;
+  }
+}
+/* line 48, ../../../sass/modules/blockpermanentlinks/blockpermanentlinks.scss */
+.ttpermanent-link ul#header_links li {
+  float: left;
+  width: 100%;
+}
+/* line 51, ../../../sass/modules/blockpermanentlinks/blockpermanentlinks.scss */
+.ttpermanent-link ul#header_links li a {
+  text-decoration: none;
+  color: #777777;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+/* line 56, ../../../sass/modules/blockpermanentlinks/blockpermanentlinks.scss */
+.ttpermanent-link ul#header_links li a:hover {
+  color: black;
+}
+/* line 61, ../../../sass/modules/blockpermanentlinks/blockpermanentlinks.scss */
+.ttpermanent-link ul#header_links div {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* line 63, ../../../sass/modules/blockpermanentlinks/blockpermanentlinks.scss */
+.ttpermanent-link ul#header_links div a {
+  display: block;
+  padding: 7px 11px 5px 22px;
+  color: #333;
+  background: url(img/arrow_right_2.png) no-repeat 10px 10px;
+}
+
+/* line 72, ../../../sass/modules/blockpermanentlinks/blockpermanentlinks.scss */
+ul#footer_links {
+  clear: both;
+  text-align: center;
+  padding-bottom: 6px;
+}
+/* line 76, ../../../sass/modules/blockpermanentlinks/blockpermanentlinks.scss */
+ul#footer_links li {
+  display: inline;
+  padding: 0 10px;
+}

@@ -1,0 +1,724 @@
+/* line 4, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttsmartblog {
+  float: none;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 60px;
+  margin-top: 25px;
+  padding: 0;
+}
+@media (max-width: 991px) {
+  /* line 4, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttsmartblog {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 4, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttsmartblog {
+    padding: 0 15px;
+  }
+}
+/* line 18, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttsmartblog .title_block {
+  margin: 30px 0 50px;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  /* line 18, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttsmartblog .title_block {
+    margin: 30px 0 20px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 18, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttsmartblog .title_block {
+    margin: 30px 0;
+  }
+}
+@media (max-width: 480px) {
+  /* line 18, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttsmartblog .title_block {
+    margin: 30px 0;
+  }
+}
+/* line 33, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttsmartblog .blog-content {
+  float: left;
+  width: 100%;
+}
+/* line 36, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttsmartblog .blog-content .block_content {
+  margin-bottom: 40px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 36, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttsmartblog .blog-content .block_content {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 480px) {
+  /* line 36, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttsmartblog .blog-content .block_content {
+    margin-bottom: 10px;
+  }
+}
+/* line 47, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttsmartblog #ttsmartblog-carousel {
+  width: 100%;
+  position: relative;
+}
+/* line 51, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttsmartblog #ttsmartblog-carousel li .ttblog-content {
+  padding: 0 0 0 30px;
+  margin: 0;
+}
+@media (max-width: 991px) {
+  /* line 51, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttsmartblog #ttsmartblog-carousel li .ttblog-content {
+    padding: 10px 0 0 0!important;
+  }
+}
+
+/* line 63, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li {
+  float: left;
+  width: 100%;
+  position: relative;
+  text-align: left !important;
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 63, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttblog-content li {
+    padding: 10px !important;
+  }
+}
+/* line 71, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content {
+  float: left;
+  margin: 6px 0 0;
+}
+@media (max-width: 991px) {
+  /* line 71, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttblog-content li .ttblog-content {
+    width: 100%;
+    padding: 0 !important;
+  }
+}
+/* line 78, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .ttblog_date {
+  width: 100%;
+  margin: 0 0 10px;
+  float: left;
+  display: none;
+}
+/* line 83, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .ttblog_date .ttday_month {
+  color: #111111;
+  display: inline-block;
+  float: none;
+  font: 400 12px/15px "Open Sans", Helvetica, sans-serif;
+  margin: 0 0 0 2px;
+  text-transform: uppercase;
+  vertical-align: baseline;
+}
+/* line 92, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .ttblog_date .ttday_date {
+  color: #111111;
+  display: inline-block;
+  float: none;
+  font: 700 18px/18px "Open Sans", Helvetica, sans-serif;
+}
+/* line 98, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .ttblog_date .ttday_year {
+  color: #111111;
+  display: inline-block;
+  float: none;
+  font: 400 12px/15px "Open Sans", Helvetica, sans-serif;
+}
+/* line 105, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .ttblog-title {
+  font: 400 22px/28px "Dosis", sans-serif;
+  text-transform: capitalize;
+  margin: 0 0 10px 0;
+}
+@media (max-width: 480px) {
+  /* line 105, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttblog-content li .ttblog-content .ttblog-title {
+    font-size: 20px;
+  }
+}
+/* line 112, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .ttblog-title a {
+  color: #222222;
+}
+/* line 114, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .ttblog-title a:hover {
+  color: #f9c13e;
+}
+/* line 119, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .ttblog-desc {
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+}
+/* line 126, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .ttblog-detail {
+  float: left;
+  width: 100%;
+  position: relative;
+  margin: 10px 0 0;
+  display: none;
+  padding: 15px 0 0;
+}
+/* line 133, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .ttblog-detail .ttviews, .ttblog-content li .ttblog-content .ttblog-detail .ttcomment {
+  float: left;
+  font: 400 12px/18px "Open Sans", Helvetica, sans-serif;
+  color: #111111;
+  text-transform: capitalize;
+}
+/* line 138, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .ttblog-detail .ttviews a, .ttblog-content li .ttblog-content .ttblog-detail .ttcomment a {
+  color: #111111;
+}
+/* line 141, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .ttblog-detail .ttviews i, .ttblog-content li .ttblog-content .ttblog-detail .ttcomment i {
+  font-size: 14px;
+}
+/* line 145, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .ttblog-detail .ttcomment {
+  margin: 0 0 0 10px;
+}
+/* line 147, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .ttblog-detail .ttcomment:hover {
+  color: #f9c13e;
+}
+/* line 149, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .ttblog-detail .ttcomment:hover a {
+  color: #f9c13e;
+}
+/* line 155, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .ttblog-detail .ttreadmore-link i {
+  width: 20px;
+  vertical-align: middle;
+}
+/* line 159, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .ttblog-detail .ttreadmore-link:hover {
+  color: #f9c13e;
+}
+/* line 164, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .tthover-content {
+  float: left;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  /* line 164, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttblog-content li .ttblog-content .tthover-content {
+    bottom: 0px;
+  }
+}
+/* line 170, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .tthover-content .ttviews, .ttblog-content li .ttblog-content .tthover-content .ttcomment, .ttblog-content li .ttblog-content .tthover-content .ttauthor, .ttblog-content li .ttblog-content .tthover-content .ttcategory, .ttblog-content li .ttblog-content .tthover-content .ttpostby {
+  float: left;
+}
+/* line 173, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .tthover-content .ttviews, .ttblog-content li .ttblog-content .tthover-content .ttcomment, .ttblog-content li .ttblog-content .tthover-content .ttauthor, .ttblog-content li .ttblog-content .tthover-content .ttcategory, .ttblog-content li .ttblog-content .tthover-content .ttpostby, .ttblog-content li .ttblog-content .tthover-content .ttblog-detail {
+  font: 400 13px/18px "Open Sans", Helvetica, sans-serif;
+  text-transform: capitalize;
+  margin: 0 10px 0 0;
+  letter-spacing: 0.4px;
+  color: #111111;
+}
+/* line 180, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .tthover-content .ttviews a:hover, .ttblog-content li .ttblog-content .tthover-content .ttcomment a:hover, .ttblog-content li .ttblog-content .tthover-content .ttauthor a:hover, .ttblog-content li .ttblog-content .tthover-content .ttcategory a:hover, .ttblog-content li .ttblog-content .tthover-content .ttpostby a:hover, .ttblog-content li .ttblog-content .tthover-content .ttblog-detail a:hover {
+  text-decoration: underline;
+}
+/* line 184, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .tthover-content .ttviews i, .ttblog-content li .ttblog-content .tthover-content .ttcomment i, .ttblog-content li .ttblog-content .tthover-content .ttauthor i, .ttblog-content li .ttblog-content .tthover-content .ttcategory i, .ttblog-content li .ttblog-content .tthover-content .ttpostby i, .ttblog-content li .ttblog-content .tthover-content .ttblog-detail i {
+  font-size: 14px;
+}
+/* line 188, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .tthover-content .ttblog-detail {
+  float: right;
+  letter-spacing: 0.4px;
+  color: #111111;
+}
+/* line 194, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .tthover-content .ttcomment:hover {
+  color: #111111;
+}
+/* line 196, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog-content .tthover-content .ttcomment:hover a {
+  color: #111111;
+}
+/* line 203, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder {
+  float: left;
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+}
+@media (max-width: 991px) {
+  /* line 203, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttblog-content li .ttblog_image_holder {
+    width: 100%;
+  }
+}
+/* line 211, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+/* line 216, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .ttblog-hover {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: all 0.4s ease-in-out 0s;
+  width: 100%;
+}
+/* line 223, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .ttbloglinks {
+  bottom: 0;
+  height: 42px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 88px;
+}
+/* line 232, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .ttbloglinks a {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  color: #ffffff;
+  float: left;
+  border-radius: 50%;
+  transform: scale(1.5);
+  opacity: 0;
+  transition: all 0.4s ease 0s;
+}
+@media (max-width: 767px) {
+  /* line 232, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttblog-content li .ttblog_image_holder .ttbloglinks a {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* line 246, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .ttbloglinks a i {
+  float: left;
+  font-size: 14px;
+  font-weight: normal;
+}
+/* line 251, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .ttbloglinks a.ttzoom {
+  margin: 0 8px 0 0;
+  padding: 11px 12px;
+}
+/* line 255, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .ttbloglinks a.ttreadmore-link {
+  padding: 12px;
+}
+/* line 258, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .ttbloglinks a:hover {
+  background: #ffc547;
+  border-color: #ffc547;
+}
+/* line 264, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .ttblog-desc {
+  text-align: left;
+  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+  bottom: 0;
+  color: #bbbbbb;
+  position: absolute;
+  padding: 10px;
+  bottom: -60px;
+  transition: all 400ms ease-in-out;
+}
+/* line 273, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .ttblog-desc p {
+  margin: 0;
+  line-height: 20px;
+}
+/* line 278, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .tthover-content {
+  float: left;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+  bottom: -40px;
+  padding: 10px;
+  position: absolute;
+  transition: all 300ms ease-in-out 0s;
+}
+@media (max-width: 767px) {
+  /* line 278, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttblog-content li .ttblog_image_holder .tthover-content {
+    bottom: 0px;
+  }
+}
+/* line 289, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .tthover-content .ttviews, .ttblog-content li .ttblog_image_holder .tthover-content .ttcomment, .ttblog-content li .ttblog_image_holder .tthover-content .ttauthor, .ttblog-content li .ttblog_image_holder .tthover-content .ttcategory, .ttblog-content li .ttblog_image_holder .tthover-content .ttpostby {
+  float: left;
+}
+/* line 292, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .tthover-content .ttviews, .ttblog-content li .ttblog_image_holder .tthover-content .ttcomment, .ttblog-content li .ttblog_image_holder .tthover-content .ttauthor, .ttblog-content li .ttblog_image_holder .tthover-content .ttcategory, .ttblog-content li .ttblog_image_holder .tthover-content .ttpostby, .ttblog-content li .ttblog_image_holder .tthover-content .ttblog-detail {
+  font: 400 13px/18px "Open Sans", Helvetica, sans-serif;
+  text-transform: capitalize;
+  margin: 0 10px 0 0;
+  letter-spacing: 0.4px;
+  color: white;
+}
+/* line 298, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .tthover-content .ttviews a, .ttblog-content li .ttblog_image_holder .tthover-content .ttcomment a, .ttblog-content li .ttblog_image_holder .tthover-content .ttauthor a, .ttblog-content li .ttblog_image_holder .tthover-content .ttcategory a, .ttblog-content li .ttblog_image_holder .tthover-content .ttpostby a, .ttblog-content li .ttblog_image_holder .tthover-content .ttblog-detail a {
+  color: white;
+}
+/* line 300, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .tthover-content .ttviews a:hover, .ttblog-content li .ttblog_image_holder .tthover-content .ttcomment a:hover, .ttblog-content li .ttblog_image_holder .tthover-content .ttauthor a:hover, .ttblog-content li .ttblog_image_holder .tthover-content .ttcategory a:hover, .ttblog-content li .ttblog_image_holder .tthover-content .ttpostby a:hover, .ttblog-content li .ttblog_image_holder .tthover-content .ttblog-detail a:hover {
+  text-decoration: underline;
+}
+/* line 304, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .tthover-content .ttviews i, .ttblog-content li .ttblog_image_holder .tthover-content .ttcomment i, .ttblog-content li .ttblog_image_holder .tthover-content .ttauthor i, .ttblog-content li .ttblog_image_holder .tthover-content .ttcategory i, .ttblog-content li .ttblog_image_holder .tthover-content .ttpostby i, .ttblog-content li .ttblog_image_holder .tthover-content .ttblog-detail i {
+  font-size: 14px;
+}
+/* line 308, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .tthover-content .ttblog-detail {
+  float: right;
+  letter-spacing: 0.4px;
+  color: #111111;
+}
+/* line 314, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .tthover-content .ttcomment:hover {
+  color: white;
+}
+/* line 316, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+.ttblog-content li .ttblog_image_holder .tthover-content .ttcomment:hover a {
+  color: white;
+}
+@media (min-width: 768px) {
+  /* line 328, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttblog-content li:hover .ttblog-content .ttblog-title a {
+    color: #f9c13e;
+  }
+  /* line 334, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttblog-content li:hover .ttblog_image_holder .ttblog-hover {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+  }
+  /* line 337, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttblog-content li:hover .ttblog_image_holder .tthover-content {
+    bottom: 0;
+  }
+  /* line 341, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  .ttblog-content li:hover .ttblog_image_holder .ttbloglinks a {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* ---------------------------- Start category,allblog --------------------------- */
+/* line 357, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#smartblogcat li {
+  margin: 0 0 40px;
+  position: relative;
+}
+/* line 360, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#smartblogcat li:before {
+  background: rgba(0, 0, 0, 0) url("../../../../img/templatetrip/border.png") repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  float: left;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+/* line 372, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#smartblogcat li:last-child:before {
+  display: none;
+}
+/* line 377, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#smartblogcat li .ttblog-content {
+  text-align: left;
+}
+/* line 379, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#smartblogcat li .ttblog-content .ttblog-desc {
+  margin: 0 0 20px;
+}
+/* line 382, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#smartblogcat li .ttblog-content .ttblog-detail {
+  display: block;
+}
+/* line 385, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#smartblogcat li .ttblog-content .ttblog-detail .ttreademore a {
+  color: #777777;
+}
+/* line 387, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#smartblogcat li .ttblog-content .ttblog-detail .ttreademore a:hover {
+  color: #f9c13e;
+}
+
+/* ---------------------------- End category,allblog --------------------------- */
+/* ---------------------------- Start commentpage --------------------------- */
+/* line 404, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#content.ttblog-content li {
+  text-align: left;
+}
+/* line 406, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#content.ttblog-content li .ttblog-content {
+  margin: 15px 0 30px;
+}
+
+/* line 412, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#respond {
+  float: left;
+  width: 100%;
+  padding: 0 10px;
+}
+/* line 416, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#respond .comment-reply-title {
+  font: 700 14px/18px "Open Sans", Helvetica, sans-serif;
+  color: #111111;
+  text-transform: uppercase;
+}
+/* line 422, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#respond #commentInput table {
+  width: 100%;
+  margin: 0 0 30px;
+}
+/* line 425, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#respond #commentInput table td {
+  padding: 10px 10px 10px  0;
+}
+/* line 427, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#respond #commentInput table td input {
+  max-width: 250px;
+}
+/* line 432, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#respond #commentInput .ttsubmit-comment {
+  float: right;
+}
+/* line 435, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#respond #commentInput .ttsubmit-comment #submitComment:hover {
+  background: #777777;
+  border-color: #777777;
+  color: white;
+}
+
+/* line 445, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments {
+  border: none;
+  border-radius: 0;
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 0px 0 30px;
+  box-shadow: none;
+  float: left;
+  width: 100%;
+}
+/* line 454, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments .tttotal-comment {
+  font: 700 16px/18px "Open Sans", Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  color: #777777;
+}
+/* line 460, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments #comments {
+  margin-bottom: 20px;
+  float: left;
+  width: 100%;
+  background: #f9f9f9;
+}
+/* line 465, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments #comments #respond {
+  border-top: none;
+  float: left;
+  margin-top: 25px;
+  width: 100%;
+}
+/* line 472, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments .tm_commenttitle {
+  font: 700 16px/22px "Dosis", sans-serif;
+  color: #111111;
+  margin: 0 0 15px;
+}
+/* line 477, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments #comments .commentList {
+  margin: 10px 0;
+  float: left;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  /* line 477, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  #articleComments #comments .commentList {
+    float: left;
+    width: 100%;
+    overflow: auto;
+  }
+}
+/* line 486, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments #comments .commentList > ul {
+  /* border-bottom:1px solid $common-border-color; */
+}
+/* line 488, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments #comments .commentList > ul .commentList {
+  background: #eeeeee;
+  float: left;
+  padding: 7px;
+}
+/* line 493, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments #comments .commentList > ul > div > li {
+  margin: 0;
+  padding: 20px 20px 10px 100px;
+}
+/* line 499, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments .commentList li {
+  border: none;
+  float: left;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  position: relative;
+  background: #f9f9f9;
+  padding: 20px 20px 20px 110px;
+  margin: 0;
+}
+/* line 507, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments .commentList li .reply {
+  margin: 0;
+  text-align: left;
+}
+/* line 510, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments .commentList li .reply a {
+  background: none;
+  cursor: pointer;
+  border-radius: 0;
+  border: none;
+  font: 700 14px/16px "Open Sans", Helvetica, sans-serif;
+  text-decoration: underline;
+  padding: 0;
+}
+/* line 518, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments .commentList li .reply a:hover {
+  background: none;
+  color: #666666;
+}
+/* line 524, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments .commentList li .tmblogtitle {
+  float: left;
+  width: 100%;
+}
+/* line 527, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments .commentList li .tmblogtitle .name {
+  float: left;
+  margin: 0 15px 0 0;
+  color: #111111;
+  font-weight: 600;
+}
+/* line 533, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments .commentList li .tmblogtitle .blog_date {
+  color: #afafaf;
+  font-size: 12px;
+  line-height: 18px;
+}
+/* line 539, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments .commentList li .blog_desc {
+  color: #999999;
+}
+/* line 542, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments .commentList li .comment-reply-link {
+  background: white;
+  font: 700 11px/16px "Open Sans", Helvetica, sans-serif;
+  padding: 6px 10px;
+  border: 1px solid black;
+  color: black;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 549, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments .commentList li .comment-reply-link:hover {
+  border-color: red;
+  background: #777777;
+  color: #f9c13e;
+}
+/* line 555, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#articleComments .commentList li .avatar {
+  background: none;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  padding: 0;
+  border: 5px solid #e5e5e5;
+}
+
+/* ---------------------------- End commentpage --------------------------- */
+/* line 571, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#ttblogCategory {
+  float: left;
+  width: 100%;
+  margin: 0 0 20px 0;
+  background: whitesmoke;
+}
+/* line 576, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#ttblogCategory img {
+  width: 32%;
+  height: auto;
+  float: left;
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 576, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  #ttblogCategory img {
+    padding: 30px 30px 0;
+    width: 62%;
+  }
+}
+@media (max-width: 480px) {
+  /* line 576, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  #ttblogCategory img {
+    padding: 30px 30px 0;
+    width: 100%;
+  }
+}
+/* line 589, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#ttblogCategory .ttblog-content {
+  float: left;
+  padding: 20px 0 20px 20px;
+  width: 68%;
+}
+@media (max-width: 767px) {
+  /* line 589, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+  #ttblogCategory .ttblog-content {
+    width: 100%;
+    padding: 20px;
+  }
+}
+/* line 597, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#ttblogCategory .ttblog-content .ttblog-title {
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  font: 700 14px/18px "Dosis", sans-serif;
+}
+/* line 601, ../../../../../sass/modules/smartblog/views/css/smartblogstyle.scss */
+#ttblogCategory .ttblog-content .ttblog-title a {
+  color: #777777;
+}

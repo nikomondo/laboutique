@@ -1,0 +1,103 @@
+@import "compass";
+@import "theme_variables";
+.header_user_info {
+	float: right;
+	padding: 40px 0;
+	position:relative;
+	z-index:1;
+	@media (max-width: $screen-sm-max) {// max 991px 
+		padding:21px 0 0 0;
+	}
+
+	.ttlogin{
+		a{
+			font-size:0;
+			padding:0;
+			&:hover{
+				background:none;
+			}
+		}
+	}
+	.ttuserheading{
+		cursor: pointer;
+		float: left;
+		height:24px;
+		margin: 0;
+		background:transparent url("../../../img/templatetrip/sprite.png") no-repeat scroll -4px -285px;
+		width: 35px;
+		&.active, &:hover{
+			background-position:-64px -285px;
+			&:before{
+				width: 35%;
+			}
+		}
+	}
+	.ttuser_link{
+		display: none;
+		position: absolute;
+		right: 0;
+		top:108px;
+		width: 200px;
+		background: $light-background;
+		border: 1px solid $base-border-color;
+		padding: 10px 15px 15px;
+		z-index: 2;
+		@media (max-width: $screen-sm-max) {// max 991px  
+			top:63px;
+		}
+		&:after{
+			color: #ffffff;
+			content: "\f0d8";
+			font-family: fontawesome;
+			font-size: 22px;
+			position: absolute;
+			top: -17px;
+			right:10px;
+		}
+		a{
+			padding:0;
+			line-height:24px;
+			font-size:13px;
+		}
+		.ttpermanent-link{
+			padding:0 0 10px 0; 
+		.ttpermanent-heading {
+			float:none;
+			height:auto;
+			width:auto;
+				&:before{
+					content:"";
+				}
+			}
+			ul{
+				&#header_links{
+					background: #ffffff none repeat scroll 0 0;
+					border: medium none;
+					display: block !important;
+					float: left;
+					margin: 0;
+					padding: 0;
+					position: static;
+					text-align: left;
+					width:167px;
+				}
+			}
+		}
+	}
+	a {
+		display: block;
+		padding: 8px 9px 11px 8px;
+		cursor: pointer;
+		color:$base-body-color;
+		line-height:18px;
+		font-size:13px;
+		&:hover, &.active {
+			color:$link-hover-color;
+		}
+	}
+}
+
+.ttuser_link > li#header_link_bookmark{
+	margin: 0 0 10px;
+}
+

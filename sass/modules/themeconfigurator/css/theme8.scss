@@ -1,0 +1,112 @@
+@import "compass";
+@import "theme_variables";
+
+$defult-bkgcolor:		#fff;
+$defultother-bkgcolor:	#43BEBD;
+$topandbottom-bkgcolor: #F1F1F1;
+
+$color1-style1:         #fff;
+$color2-style1:         #000;
+$color3-style1:         #333;
+$color5-style1:         #FFF;
+$base-border-color:		#C6C7BB;
+
+body
+{
+	background:$defult-bkgcolor;
+}
+
+//-------- HEADER
+
+#header_user #shopping_cart a{
+background:$color1-style1; 
+color:$color5-style1;	
+	&:after{color:$color5-style1}
+	&:hover{color:$color5-style1;
+	text-shadow:0 1px #333;
+	background:$color3-style1}		 
+}
+
+//-------- columns-container
+
+   ul.product_list.grid > li .product-container{
+  
+    .product-image-container{
+  	   background:$color5-style1;
+       .product_img_link{
+        background:#f1e8e3;
+        img{
+          background:#f1e8e3;
+        }
+       }   
+     }
+   }
+
+.content_sortPagiBar .display li.selected i, 
+.content_sortPagiBar .display_m li.selected i,
+.content_sortPagiBar .display li a:hover i, 
+.content_sortPagiBar .display_m li a:hover i,
+.top-pagination-content ul.pagination li.active > span, 
+.bottom-pagination-content ul.pagination li.active > span,
+.our_price_display,
+.pagination > li > a:hover,
+.footer-container #footer a:hover ,
+#view_scroll_left:hover:before, #view_scroll_right:hover:before,
+#view_scroll_left:hover:before, #view_scroll_right:hover:before,
+.pb-left-column #image-block #view_full_size .span_link:hover:after,
+#layer_cart .cross:hover,
+#currencies-block-top ul li.selected a,
+#currencies-block-top ul li:hover a,
+#languages-block-top ul li.selected span, 
+#languages-block-top ul li:hover a,
+ul.product_list.grid li:hover a.product-name, ul.product_list.grid li:hover .product-name a, ul.tt-carousel li:hover a.product-name, ul.tt-carousel li:hover .product-name a,
+.content_scene_cat a,
+.breadcrumb,
+.navigation_page,
+#availability_value, #last_quantities,
+ul.product_list.list > li:hover .product-name,
+ul.product_list.list > li .right-block .right-block-content .functional-buttons .compare a.checked::before,
+ul.product_list.list > li .right-block .right-block-content .functional-buttons .wishlist:hover::before,
+ul.product_list.list > li .right-block .right-block-content .functional-buttons .compare:hover a::before,
+div.star.star_on::after,
+#layer_cart .crossseling #blockcart_list ul li:hover .product-name a
+{color:$defultother-bkgcolor !important;}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default,
+.layered_slider
+{background:$defultother-bkgcolor !important;}
+		
+.old-price{color:#b1b0b0}
+
+.button.lnk_view:hover span{color:$color5-style1;background:$defultother-bkgcolor;border-color:$defultother-bkgcolor} 
+
+#cmsinfo_block em{background:$defultother-bkgcolor;text-shadow:0 1px #4e3c30;}
+   
+
+.footer-container #footer,#block_top_menu .top_menu_inner{background:none !important;}
+	
+/*============ Extra Added By Megnor =====*/
+	
+#cmsinfo_block,
+#cmsinfo_block > div + div
+{
+	border-color:$base-border-color;
+}     
+#subcategories ul li:hover .subcategory-image a { border-color:$defultother-bkgcolor;}		
+
+/*=================== Button Setting ==================*/
+.accessories-block .exclusive span{background:none !important;}
+#home-page-tabs > li.active a div, #home-page-tabs > li a:hover div,.nav-tabs > li.active a div, .nav-tabs > li:hover a div {border-top-color:$defultother-bkgcolor;}
+.customNavigation a.next i:hover:before,.customNavigation a.prev i:hover:before{color:$defultother-bkgcolor !important;}
+
+#search_block_top .search_main{background:$color1-style1 !important; box-shadow:none !important; }
+#search_block_top .search_main .btn.button-search,#search_block_top .search_main .btn.button-search:hover {color:$defultother-bkgcolor;}
+
+#new-products_block_right a.button-small span, #special_block_right a.button-small span{border:none !important; background:none!important;}
+
+.top-pagination-content ul.pagination li.active, .bottom-pagination-content ul.pagination li.active, .top-pagination-content ul.pagination li:hover, .bottom-pagination-content ul.pagination li:hover{border-color:$defultother-bkgcolor;}
+
+.footer-container #footer #block_contact_infos > div ul li i , #footer #newsletter_block_left .block_content > form::before, #home-page-tabs > li.active a, #home-page-tabs > li a:hover, #subcategories ul li:hover a{color:$defultother-bkgcolor;}
+
+.top-pagination-content ul.pagination li.active, .bottom-pagination-content ul.pagination li.active span, .top-pagination-content ul.pagination li.active, .bottom-pagination-content ul.pagination li.active, .top-pagination-content ul.pagination li:hover, .bottom-pagination-content ul.pagination li:hover{background-color:$defultother-bkgcolor !important;}
+.sf-menu > li.sfHover > a, .sf-menu > li > a:hover, .sf-menu > li.sfHoverForce > a{background:transparent;}
+#home-page-tabs > li::after, .tt-tabcontent #producttab li.active a::before{background-color:$defultother-bkgcolor;}

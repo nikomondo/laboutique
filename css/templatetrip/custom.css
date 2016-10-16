@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* --------------------------- TempalteTrip Custom Styles ----------------------------- */
+/* line 9, ../../sass/templatetrip/custom.scss */
+.owl-wrapper-outer {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 13, ../../sass/templatetrip/custom.scss */
+.owl-wrapper-outer .owl-wrapper {
+  position: relative;
+}
+/* line 15, ../../sass/templatetrip/custom.scss */
+.owl-wrapper-outer .owl-wrapper:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+/* line 23, ../../sass/templatetrip/custom.scss */
+.owl-wrapper-outer .owl-wrapper .owl-item {
+  float: left;
+}
+
+/* line 29, ../../sass/templatetrip/custom.scss */
+.customNavigation {
+  float: none;
+  display: inline-block;
+  position: static;
+  text-align: center;
+  width: auto;
+}
+/* line 36, ../../sass/templatetrip/custom.scss */
+.customNavigation a {
+  padding: 2px 13px;
+  text-transform: uppercase;
+  font: 400 13px/18px "Open Sans", Helvetica, sans-serif;
+  float: left;
+  letter-spacing: 0.4px;
+  color: white;
+  width: auto;
+  height: auto;
+  background: #222222;
+  position: relative;
+}
+/* line 47, ../../sass/templatetrip/custom.scss */
+.customNavigation a.prev {
+  position: relative;
+}
+/* line 49, ../../sass/templatetrip/custom.scss */
+.customNavigation a.prev:after {
+  border: 1px solid #4a4a4a;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  right: -2px;
+  top: 0;
+}
+/* line 57, ../../sass/templatetrip/custom.scss */
+.customNavigation a.prev:before {
+  border-top: 1px solid #f3f3f3;
+  content: "";
+  float: left;
+  height: 1px;
+  left: -76px;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  width: 75px;
+}
+/* line 70, ../../sass/templatetrip/custom.scss */
+.customNavigation a.next:after {
+  border-top: 1px solid #f3f3f3;
+  content: "";
+  float: right;
+  height: 1px;
+  position: absolute;
+  right: -76px;
+  top: 10px;
+  width: 75px;
+}
+/* line 81, ../../sass/templatetrip/custom.scss */
+.customNavigation a:hover {
+  background: #f9c13e;
+  color: #111111;
+}
+/* line 85, ../../sass/templatetrip/custom.scss */
+.customNavigation a:hover.prev:before {
+  background-position: -75px -359px;
+}
+/* line 88, ../../sass/templatetrip/custom.scss */
+.customNavigation a:hover.prev:after {
+  border-color: #f9c13e;
+}
+/* line 93, ../../sass/templatetrip/custom.scss */
+.customNavigation a:hover.next:before {
+  background-position: -66px -392px;
+}

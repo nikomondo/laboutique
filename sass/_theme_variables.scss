@@ -1,0 +1,142 @@
+@import 'bootstrap_lib/_variables';
+
+//------- FONTS
+$font-family:				  		'Open Sans', Helvetica, sans-serif;
+$font:						  		normal 13px/18px $font-family;
+$font-custom:                 		'Dosis', sans-serif;
+$font-subtitle:						'Alex Brush', sans-serif;
+$font-icon:                   		"FontAwesome";
+$fa-css-prefix:       				icon !default;
+$font-counter:						'Fjalla One';
+
+//-------- BORDERS
+$base-border-color:					#e5e5e5;
+$main_border:						1px solid $base-border-color;
+$dark-border-color:					#333333;
+$light-border-color:				#ffffff;
+$homepage-footer-border:            #d9d9d9;
+$dashed-border:						#cccccc;
+$footer-border:						#333333;
+$grid-boder-color:					#e5e5e5;
+$menu-border:						#dddddd;
+
+//--------- BACKGROUNDS
+$body-bg:							#ffffff;  
+$block-bg:							#f5f5f5;
+$base-box-bg:                       #fbfbfb;
+$table-background:                  $body-bg;
+$dark-background:                   #111111;  
+$light-background:                  #ffffff;
+$homepage-footer-bg:                #f2f2f2;
+$custom-navigation-bg:				#eeeeee;
+$custom-navigation-hover-bg:		#f9c13e;
+$product-hover-btn-bg:				#45414e;
+$nav-bg:							#333333;
+$new-label-bg:						#45414e;
+$sale-label-bg:						#f9c13e;
+$hover-bg:							#ffc547;
+$category-left-bg:					#f8f8f8;
+$left-bg:							#f5f5f5;
+$ttblog-bg:							#f9f9f9;
+$footer-bg:							#222222;
+$button-hover-bg:					#ffc547;
+$product-icon-bg:					#454545;
+$price-bg-color:					#f1f1f1;
+$full-bg-color:						#f2f3f7;
+$heading-bg:						#f8f8f8;
+
+//--------- COLORS
+$base-body-color:                   #777777;
+$base-text-color:                   #111111;
+$dark-text-color:					#272727;
+$base-heading-color:				#555454;
+$base-title-color:					$base-text-color;
+$light-text-color:                  #ffffff;
+$link-color:						$link-color;
+$link-hover-color:                  #000000;
+$description-color:					#666666;
+$menu-color:						#ffffff;
+$menu-hover-color:					#ffc547;
+$hover-color:						#f9c13e;
+$nav-color:							#cccccc;
+$nav-hover-color:					#ffffff;
+$tab-color:							#777777;
+$tab-hover-color:					#232323;
+$custom-navigation-color:			#ffffff;
+$custom-navigation-hover-color:		#111111;
+$sub-title-color:					#454545;
+$testimonial-color:					#bbbbbb;
+$star-color:						#d7d7d7;
+$star-active-color:					#ffc84f;
+$footer-color:						#888888;
+$footer-hover-color:				#ffffff;
+$testimonial-color:					#eeeeee;
+
+
+
+//--------- Indents
+$base-page-indent:                 	$grid-gutter-width;
+$base-box-padding:                  14px 18px 13px;
+$base-box-indent:                  	0 0 30px 0;
+
+//---------- Product Elements
+$product-name-color:                #555555;
+$product-name-hover-color:          #000000;
+$price-color:						$base-body-color;
+$product-price-color:				#272727;
+$product-reduced-price:				#f00;
+$product-special-price-color:		#f13340;
+$product-old-price-color:			#777777;
+
+//---------- Buttons
+$button-text-color:					$light-text-color;
+
+		//------ Buttons +/- ---
+		$button-pm-color:			#c0c0c0;
+		$button-pm-hover-color:		$base-text-color;
+
+		//------ Button Small --
+		$button-small-bg:			#111111;
+		$button-small-hover-bg:		#ffc547;
+
+		//-------Button exclusive-medium
+		$button-em-color:			$base-text-color;
+
+//---------- Product Listing
+$base-listing-border-color:					$base-border-color;
+$base-listing-grid-padding:					$base-box-padding;
+
+		//-------------- Grid/List vars
+		$GL-text-color:								#808080;
+		$GL-title-color:							$base-text-color;
+		$GL-icon-color:								#e1e0e0;
+		$GL-icon-color-hover:						$base-text-color;
+
+		//-------------- Pagination vars
+		$pagination-prevnext-color:					#777676;
+		$pagination-bgcolor:	               		$base-box-bg;
+		$pagination-hover-bg:						#f6f6f6;
+
+//---------- Product Info
+$top-line-color:									#C4C4C4;
+$product-image-border:								#dbdbdb;
+$scroll-button-color:								#c0c0c0;
+$list-info-bg:										#f6f6f6;
+$scroll-button-hover-color:							$base-text-color;
+$tr-even-bg:										#fdfdfd;
+
+//sub heading (h2,h3) define
+@mixin sub-heading {
+	color: $base-heading-color;
+	text-transform: uppercase;
+	font-family: $font-custom;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 20px;
+	padding: 14px 20px 17px;
+	margin: 0 0 20px;
+	position: relative;
+	border: 1px solid $base-border-color;
+	border-bottom: none;
+	background: $base-box-bg;
+}

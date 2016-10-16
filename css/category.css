@@ -1,0 +1,169 @@
+/* ************************************************************************************************
+								Categories Page Styles
+************************************************************************************************ */
+/* line 7, ../sass/category.scss */
+.content_scene_cat {
+  margin: 0 0 20px 0;
+  float: left;
+  width: 100%;
+}
+/* line 11, ../sass/category.scss */
+.content_scene_cat span.category-name {
+  color: white;
+  display: none;
+  margin-bottom: 12px;
+}
+@media (max-width: 1199px) {
+  /* line 11, ../sass/category.scss */
+  .content_scene_cat span.category-name {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+/* line 20, ../sass/category.scss */
+.content_scene_cat p {
+  margin-bottom: 0;
+}
+/* line 23, ../sass/category.scss */
+.content_scene_cat a {
+  color: white;
+}
+/* line 25, ../sass/category.scss */
+.content_scene_cat a:hover {
+  text-decoration: underline;
+}
+/* line 29, ../sass/category.scss */
+.content_scene_cat .content_scene {
+  color: #777777;
+}
+/* line 31, ../sass/category.scss */
+.content_scene_cat .content_scene .cat_desc {
+  padding-top: 20px;
+}
+/* line 33, ../sass/category.scss */
+.content_scene_cat .content_scene .cat_desc a {
+  color: #333333;
+}
+/* line 35, ../sass/category.scss */
+.content_scene_cat .content_scene .cat_desc a:hover {
+  color: black;
+}
+/* line 41, ../sass/category.scss */
+.content_scene_cat .content_scene_cat_bg {
+  margin: 0 0 20px;
+  float: left;
+  width: 100%;
+}
+/* line 45, ../sass/category.scss */
+.content_scene_cat .content_scene_cat_bg > img {
+  max-width: 100%;
+}
+@media (max-width: 1200px) {
+  /* line 45, ../sass/category.scss */
+  .content_scene_cat .content_scene_cat_bg > img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* ************************************************************************************************
+									Sub Categories Styles
+************************************************************************************************ */
+/* line 59, ../sass/category.scss */
+#subcategories {
+  float: left;
+  width: 100%;
+}
+/* line 62, ../sass/category.scss */
+#subcategories p.subcategory-heading {
+  color: #111111;
+  margin: 0;
+}
+/* line 67, ../sass/category.scss */
+#subcategories ul li {
+  float: left;
+  margin: 5px 8px;
+  text-align: center;
+  width: 18%;
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 67, ../sass/category.scss */
+  #subcategories ul li {
+    width: 29%;
+  }
+}
+@media (max-width: 480px) {
+  /* line 67, ../sass/category.scss */
+  #subcategories ul li {
+    width: 44%;
+  }
+}
+/* line 78, ../sass/category.scss */
+#subcategories ul li .subcategory-image {
+  padding: 0;
+}
+/* line 80, ../sass/category.scss */
+#subcategories ul li .subcategory-image a {
+  display: block;
+  padding: 9px;
+  border: 1px solid #e5e5e5;
+}
+/* line 84, ../sass/category.scss */
+#subcategories ul li .subcategory-image a img {
+  max-width: 100%;
+  vertical-align: top;
+}
+/* line 90, ../sass/category.scss */
+#subcategories ul li .subcategory-name {
+  color: #999999;
+}
+/* line 92, ../sass/category.scss */
+#subcategories ul li .subcategory-name:hover {
+  color: #333333;
+}
+/* line 96, ../sass/category.scss */
+#subcategories ul li .cat_desc {
+  display: none;
+}
+/* line 101, ../sass/category.scss */
+#subcategories ul li:hover .subcategory-image a {
+  border: 2px solid #333333;
+  padding: 8px;
+}
+/* line 106, ../sass/category.scss */
+#subcategories ul li:hover .subcategory-name {
+  color: #333333;
+}
+
+/* line 114, ../sass/category.scss */
+.cat-name {
+  color: #777777;
+  font: 700 16px/26px "Dosis", sans-serif;
+}
+
+/* line 120, ../sass/category.scss */
+.cat_desc p {
+  float: left;
+  width: 100%;
+}
+/* line 124, ../sass/category.scss */
+.cat_desc .rte strong {
+  color: #111111;
+  float: left;
+  font-weight: 500;
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+/* line 134, ../sass/category.scss */
+#ul_layered_price_0 > label {
+  font-weight: normal;
+}
+
+/* line 137, ../sass/category.scss */
+.content_scene_cat a.lnk_more {
+  float: right;
+  text-decoration: underline;
+  color: #111111;
+}

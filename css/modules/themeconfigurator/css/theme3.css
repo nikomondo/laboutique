@@ -1,0 +1,164 @@
+/* line 14, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+body {
+  background: #f6f6f6;
+}
+
+/* line 20, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+#header_user #shopping_cart a {
+  background: white;
+  color: white;
+}
+/* line 23, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+#header_user #shopping_cart a:after {
+  color: white;
+}
+/* line 24, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+#header_user #shopping_cart a:hover {
+  color: white;
+  text-shadow: 0 1px #333;
+  background: #333333;
+}
+
+/* line 33, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+ul.product_list.grid > li .product-container .product-image-container {
+  background: white;
+}
+/* line 35, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+ul.product_list.grid > li .product-container .product-image-container .product_img_link {
+  background: #f1e8e3;
+}
+/* line 37, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+ul.product_list.grid > li .product-container .product-image-container .product_img_link img {
+  background: #f1e8e3;
+}
+
+/* line 72, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+.content_sortPagiBar .display li.selected i,
+.content_sortPagiBar .display_m li.selected i,
+.content_sortPagiBar .display li a:hover i,
+.content_sortPagiBar .display_m li a:hover i,
+.top-pagination-content ul.pagination li.active > span,
+.bottom-pagination-content ul.pagination li.active > span,
+.our_price_display,
+.pagination > li > a:hover,
+.footer-container #footer a:hover,
+#view_scroll_left:hover:before, #view_scroll_right:hover:before,
+#view_scroll_left:hover:before, #view_scroll_right:hover:before,
+.pb-left-column #image-block #view_full_size .span_link:hover:after,
+#layer_cart .cross:hover,
+#currencies-block-top ul li.selected a,
+#currencies-block-top ul li:hover a,
+#languages-block-top ul li.selected span,
+#languages-block-top ul li:hover a,
+ul.product_list.grid li:hover a.product-name, ul.product_list.grid li:hover .product-name a, ul.tt-carousel li:hover a.product-name, ul.tt-carousel li:hover .product-name a,
+.content_scene_cat a,
+.breadcrumb,
+.navigation_page,
+#availability_value, #last_quantities,
+ul.product_list.list > li:hover .product-name,
+ul.product_list.list > li .right-block .right-block-content .functional-buttons .compare a.checked::before,
+ul.product_list.list > li .right-block .right-block-content .functional-buttons .wishlist:hover::before,
+ul.product_list.list > li .right-block .right-block-content .functional-buttons .compare:hover a::before,
+div.star.star_on::after,
+#layer_cart .crossseling #blockcart_list ul li:hover .product-name a {
+  color: #947f72 !important;
+}
+
+/* line 75, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default,
+.layered_slider {
+  background: #947f72 !important;
+}
+
+/* line 77, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+.old-price {
+  color: #b1b0b0;
+}
+
+/* line 79, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+.button.lnk_view:hover span {
+  color: white;
+  background: #947f72;
+  border-color: #947f72;
+}
+
+/* line 81, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+#cmsinfo_block em {
+  background: #947f72;
+  text-shadow: 0 1px #4e3c30;
+}
+
+/* line 84, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+.footer-container #footer, #block_top_menu .top_menu_inner {
+  background: none !important;
+}
+
+/*============ Extra Added By Megnor =====*/
+/* line 90, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+#cmsinfo_block,
+#cmsinfo_block > div + div {
+  border-color: #c6c7bb;
+}
+
+/* line 93, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+#subcategories ul li:hover .subcategory-image a {
+  border-color: #947f72;
+}
+
+/*=================== Button Setting ==================*/
+/* line 96, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+.accessories-block .exclusive span {
+  background: none !important;
+}
+
+/* line 97, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+#home-page-tabs > li.active a div, #home-page-tabs > li a:hover div, .nav-tabs > li.active a div, .nav-tabs > li:hover a div {
+  border-top-color: #947f72;
+}
+
+/* line 98, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+.customNavigation a.next i:hover:before, .customNavigation a.prev i:hover:before {
+  color: #947f72 !important;
+}
+
+/* line 100, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+#search_block_top .search_main {
+  background: white !important;
+  box-shadow: none !important;
+}
+
+/* line 101, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+#search_block_top .search_main .btn.button-search, #search_block_top .search_main .btn.button-search:hover {
+  color: #947f72;
+}
+
+/* line 103, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+#new-products_block_right a.button-small span, #special_block_right a.button-small span {
+  border: none !important;
+  background: none!important;
+}
+
+/* line 105, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+.top-pagination-content ul.pagination li.active, .bottom-pagination-content ul.pagination li.active, .top-pagination-content ul.pagination li:hover, .bottom-pagination-content ul.pagination li:hover {
+  border-color: #947f72;
+}
+
+/* line 107, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+.footer-container #footer #block_contact_infos > div ul li i, #footer #newsletter_block_left .block_content > form::before, #home-page-tabs > li.active a, #home-page-tabs > li a:hover, #subcategories ul li:hover a {
+  color: #947f72;
+}
+
+/* line 109, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+.top-pagination-content ul.pagination li.active, .bottom-pagination-content ul.pagination li.active span, .top-pagination-content ul.pagination li.active, .bottom-pagination-content ul.pagination li.active, .top-pagination-content ul.pagination li:hover, .bottom-pagination-content ul.pagination li:hover {
+  background-color: #947f72 !important;
+}
+
+/* line 110, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+.sf-menu > li.sfHover > a, .sf-menu > li > a:hover, .sf-menu > li.sfHoverForce > a {
+  background: transparent;
+}
+
+/* line 111, ../../../../sass/modules/themeconfigurator/css/theme3.scss */
+#home-page-tabs > li::after, .tt-tabcontent #producttab li.active a::before {
+  background-color: #947f72;
+}

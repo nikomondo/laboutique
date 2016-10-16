@@ -1,0 +1,517 @@
+/* line 5, ../../../sass/modules/crossselling/crossselling.scss */
+#crossselling_list .product-name {
+  margin-bottom: 5px;
+}
+/* line 7, ../../../sass/modules/crossselling/crossselling.scss */
+#crossselling_list .product-name a {
+  font-size: 15px;
+  line-height: 18px;
+  color: #555555;
+}
+/* line 11, ../../../sass/modules/crossselling/crossselling.scss */
+#crossselling_list .product-name a:hover {
+  color: black;
+}
+/* line 16, ../../../sass/modules/crossselling/crossselling.scss */
+#crossselling_list .exclusive span {
+  font-size: 13px;
+  line-height: 18px;
+  padding: 2px 8px 3px;
+  text-decoration: none;
+}
+/* line 22, ../../../sass/modules/crossselling/crossselling.scss */
+#crossselling_list .exclusive span:focus, #crossselling_list .exclusive span:active {
+  text-decoration: none;
+}
+
+/* line 28, ../../../sass/modules/crossselling/crossselling.scss */
+.page-product-box.ttcrossselling {
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+/* line 32, ../../../sass/modules/crossselling/crossselling.scss */
+.page-product-box.ttcrossselling .title_block {
+  margin-bottom: 50px;
+}
+
+/* line 38, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li, ul.tm-carousel li {
+  text-align: center;
+  padding: 15px;
+  overflow: hidden;
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 38, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li, ul.tm-carousel li {
+    float: left;
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  /* line 38, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li, ul.tm-carousel li {
+    width: 100%;
+  }
+}
+/* line 49, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container, ul.tm-carousel li .product-container {
+  float: left;
+  display: inline-block;
+  background: transparent;
+  padding: 0 0 10px;
+  transition: all 400ms ease-in-out 0s;
+  -webkit-transition: all 400ms ease-in-out 0s;
+  -moz-transition: all 400ms ease-in-out 0s;
+  -o-transition: all 400ms ease-in-out 0s;
+  -ms-transition: all 400ms ease-in-out 0s;
+  position: relative;
+  width: 100%;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 49, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li .product-container, ul.tm-carousel li .product-container {
+    float: none;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 49, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li .product-container, ul.tm-carousel li .product-container {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  /* line 49, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li .product-container, ul.tm-carousel li .product-container {
+    float: none;
+  }
+}
+/* line 71, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .left-block .product-image-container, ul.tm-carousel li .product-container .left-block .product-image-container {
+  margin-bottom: 13px;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  /* line 71, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li .product-container .left-block .product-image-container, ul.tm-carousel li .product-container .left-block .product-image-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* line 80, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .left-block .product-image-container a img, ul.tm-carousel li .product-container .left-block .product-image-container a img {
+  max-width: 100%;
+}
+@media (max-width: 991px) {
+  /* line 80, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li .product-container .left-block .product-image-container a img, ul.tm-carousel li .product-container .left-block .product-image-container a img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  /* line 80, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li .product-container .left-block .product-image-container a img, ul.tm-carousel li .product-container .left-block .product-image-container a img {
+    width: auto;
+  }
+}
+@media (max-width: 1200px) {
+  /* line 80, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li .product-container .left-block .product-image-container a img, ul.tm-carousel li .product-container .left-block .product-image-container a img {
+    width: auto;
+  }
+}
+/* line 93, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .left-block .product-image-container a .img_1, ul.tm-carousel li .product-container .left-block .product-image-container a .img_1 {
+  opacity: 0;
+  -moz-opacity: 0;
+  /* Netscape */
+  -khtml-opacity: 0;
+  /* Safari 1.x */
+  -webkit-opacity: 0;
+  /* other webkit*/
+  transform: rotateY(90deg);
+  -moz-transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  transition: all 500ms ease-in-out 0s;
+  -webkit-transition: all 500ms ease-in-out 0s;
+  -moz-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  -ms-transition: all 500ms ease-in-out 0s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+/* line 113, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .left-block .product-image-container a .img_0, ul.tm-carousel li .product-container .left-block .product-image-container a .img_0 {
+  opacity: 1;
+  -moz-opacity: 1;
+  /* Netscape */
+  -khtml-opacity: 1;
+  /* Safari 1.x */
+  -webkit-opacity: 1;
+  /* other webkit*/
+  transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transition: all 500ms ease-in-out 0s;
+  -webkit-transition: all 500ms ease-in-out 0s;
+  -moz-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  -ms-transition: all 500ms ease-in-out 0s;
+}
+/* line 130, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .left-block .product-image-container .content_price, ul.tm-carousel li .product-container .left-block .product-image-container .content_price {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  background: url(../img/price-container-bg.png);
+  padding: 9px 0;
+  display: none;
+}
+/* line 138, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .left-block .product-image-container .content_price span, ul.tm-carousel li .product-container .left-block .product-image-container .content_price span {
+  color: white;
+}
+/* line 140, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .left-block .product-image-container .content_price span.old-price, ul.tm-carousel li .product-container .left-block .product-image-container .content_price span.old-price {
+  color: #b1b0b0;
+}
+/* line 146, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .left-block .new-box, ul.product_grid.grid li .product-container .left-block .sale-box, ul.tm-carousel li .product-container .left-block .new-box, ul.tm-carousel li .product-container .left-block .sale-box {
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+}
+/* line 151, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block, ul.tm-carousel li .product-container .right-block {
+  float: left;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  opacity: 1;
+  transition: all 300ms ease-in-out;
+  padding: 0 0 20px 0;
+}
+/* line 159, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .hook-reviews, ul.tm-carousel li .product-container .right-block .hook-reviews {
+  top: -40px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transition: all 400ms ease-in-out;
+  display: block;
+}
+/* line 167, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .availability, ul.tm-carousel li .product-container .right-block .availability {
+  display: none;
+}
+/* line 170, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .color-list-container, ul.tm-carousel li .product-container .right-block .color-list-container {
+  display: none;
+}
+/* line 173, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover, ul.tm-carousel li .product-container .right-block .ttproducthover {
+  float: left;
+  opacity: 0;
+  position: absolute;
+  bottom: 120px;
+  right: 10px;
+  transition: all 300ms ease-in-out 0s;
+}
+@media (max-width: 767px) {
+  /* line 173, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li .product-container .right-block .ttproducthover, ul.tm-carousel li .product-container .right-block .ttproducthover {
+    padding: 10px 0 0 0;
+    opacity: 1;
+    transform: none;
+    display: block;
+  }
+}
+/* line 186, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons {
+  display: inline-table;
+  float: none;
+  height: 100%;
+  padding: 0;
+  vertical-align: top;
+  width: auto;
+  transform: translateX(0);
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 186, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 186, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons {
+    padding: 0 2px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 186, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons {
+    padding: 0 5px;
+  }
+}
+/* line 203, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons div, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons div {
+  font-size: 0;
+  border: none;
+  height: 44px;
+  padding: 0;
+  width: 44px;
+  margin: 0 0 10px 0;
+  transform: translateX(80px);
+}
+/* line 211, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons div:last-child, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons div:last-child {
+  margin: 0;
+}
+/* line 214, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons div a, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons div a {
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: relative;
+  border-radius: 50%;
+}
+/* line 223, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .wishlist a, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .wishlist a {
+  background: white url("../../../img/templatetrip/product-sprite.png") no-repeat scroll 10px 10px;
+}
+/* line 225, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .wishlist a:hover, ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .wishlist a.checked, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .wishlist a:hover, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .wishlist a.checked {
+  background-position: -34px 10px;
+  background-color: #111111;
+}
+/* line 229, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .wishlist a:hover .tooltip, ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .wishlist a.checked .tooltip, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .wishlist a:hover .tooltip, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .wishlist a.checked .tooltip {
+  display: block;
+  right: 0;
+  left: auto;
+}
+/* line 233, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .wishlist a:hover .tooltip:before, ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .wishlist a.checked .tooltip:before, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .wishlist a:hover .tooltip:before, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .wishlist a.checked .tooltip:before {
+  left: auto;
+  right: 17px;
+}
+/* line 243, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .compare a, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .compare a {
+  background: white url("../../../img/templatetrip/product-sprite.png") no-repeat scroll 10px -83px;
+}
+/* line 245, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .compare a.checked, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .compare a.checked {
+  background-position: -33px -83px;
+}
+/* line 249, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .compare a:hover, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .compare a:hover {
+  background-position: -33px -84px;
+  background-color: #111111;
+}
+/* line 253, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .compare a:hover .tooltip, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .compare a:hover .tooltip {
+  display: block;
+  right: 0;
+  left: auto;
+}
+/* line 257, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .compare a:hover .tooltip:before, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .compare a:hover .tooltip:before {
+  left: auto;
+  right: 17px;
+}
+@media (max-width: 767px) {
+  /* line 266, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .ttquickview, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .ttquickview {
+    display: none;
+  }
+}
+/* line 270, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .ttquickview a, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .ttquickview a {
+  background: white url("../../../img/templatetrip/product-sprite.png") no-repeat scroll 10px -124px;
+}
+/* line 272, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .ttquickview a:hover, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .ttquickview a:hover {
+  background-position: -33px -124px;
+  background-color: #111111;
+}
+/* line 275, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .ttquickview a:hover .tooltip, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .ttquickview a:hover .tooltip {
+  display: block;
+  right: 0;
+  left: auto;
+}
+/* line 279, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .ttquickview a:hover .tooltip:before, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .ttquickview a:hover .tooltip:before {
+  left: auto;
+  right: 17px;
+}
+/* line 290, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .button-container .ajax_add_to_cart_button,
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .button-container span.button, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .button-container .ajax_add_to_cart_button,
+ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .button-container span.button {
+  margin: 0;
+}
+/* line 293, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .button-container .lnk_view, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .button-container .lnk_view {
+  display: none;
+}
+/* line 296, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .button-container .button.ajax_add_to_cart_button, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .button-container .button.ajax_add_to_cart_button {
+  background: white url("../../../img/templatetrip/product-sprite.png") no-repeat scroll 9px -36px;
+}
+/* line 298, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .button-container .button.ajax_add_to_cart_button:hover, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .button-container .button.ajax_add_to_cart_button:hover {
+  background-position: -34px -36px;
+  background-color: #111111;
+}
+/* line 301, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .button-container .button.ajax_add_to_cart_button:hover .tooltip, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .button-container .button.ajax_add_to_cart_button:hover .tooltip {
+  display: block;
+  right: 0;
+  left: auto;
+}
+/* line 305, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .button-container .button.ajax_add_to_cart_button:hover .tooltip:before, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .button-container .button.ajax_add_to_cart_button:hover .tooltip:before {
+  left: auto;
+  right: 17px;
+}
+/* line 312, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .right-block .ttproducthover .functional-buttons .button-container a, ul.tm-carousel li .product-container .right-block .ttproducthover .functional-buttons .button-container a {
+  border: none !important;
+}
+/* line 321, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container h5.product-name, ul.tm-carousel li .product-container h5.product-name {
+  padding: 0;
+  font: 400 15px/26px "Open Sans", Helvetica, sans-serif;
+  margin: 0;
+  text-transform: capitalize;
+}
+/* line 326, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container h5.product-name a:hover, ul.tm-carousel li .product-container h5.product-name a:hover {
+  color: black;
+}
+/* line 330, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .comments_note, ul.tm-carousel li .product-container .comments_note {
+  text-align: center;
+}
+/* line 332, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .comments_note .star_content, ul.tm-carousel li .product-container .comments_note .star_content {
+  margin: 0 auto;
+  float: none;
+}
+/* line 336, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .comments_note .nb-comments, ul.tm-carousel li .product-container .comments_note .nb-comments {
+  display: none;
+}
+/* line 340, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .product-desc, ul.tm-carousel li .product-container .product-desc {
+  display: none;
+}
+/* line 343, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .content_price, ul.tm-carousel li .product-container .content_price {
+  padding-bottom: 0;
+  line-height: 30px;
+  float: none;
+  display: inline-block;
+  padding: 0 10px;
+}
+/* line 352, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .old-price,
+ul.product_grid.grid li .product-container .price,
+ul.product_grid.grid li .product-container .price-percent-reduction, ul.tm-carousel li .product-container .old-price,
+ul.tm-carousel li .product-container .price,
+ul.tm-carousel li .product-container .price-percent-reduction {
+  display: inline-block;
+}
+/* line 355, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .product-flags, ul.tm-carousel li .product-container .product-flags {
+  display: none;
+}
+/* line 358, ../../../sass/modules/crossselling/crossselling.scss */
+ul.product_grid.grid li .product-container .old-price, ul.tm-carousel li .product-container .old-price {
+  margin-right: 5px;
+}
+@media (min-width: 992px) {
+  /* line 367, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li.first-in-line, ul.tm-carousel li.first-in-line {
+    clear: left;
+  }
+}
+@media (min-width: 480px) and (max-width: 991px) {
+  /* line 372, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li.first-item-of-tablet-line, ul.tm-carousel li.first-item-of-tablet-line {
+    clear: left;
+  }
+}
+@media (min-width: 768px) {
+  /* line 383, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li.hovered .product-container .left-block .product-image-container a .img_1, ul.product_grid.grid li:hover .product-container .left-block .product-image-container a .img_1, ul.tm-carousel li.hovered .product-container .left-block .product-image-container a .img_1, ul.tm-carousel li:hover .product-container .left-block .product-image-container a .img_1 {
+    opacity: 1;
+    -moz-opacity: 1;
+    /* Netscape */
+    -khtml-opacity: 1;
+    /* Safari 1.x */
+    -webkit-opacity: 1;
+    /* other webkit*/
+    transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+  }
+  /* line 394, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li.hovered .product-container .left-block .product-image-container a .img_0, ul.product_grid.grid li:hover .product-container .left-block .product-image-container a .img_0, ul.tm-carousel li.hovered .product-container .left-block .product-image-container a .img_0, ul.tm-carousel li:hover .product-container .left-block .product-image-container a .img_0 {
+    opacity: 0;
+    -moz-opacity: 0;
+    /* Netscape */
+    -khtml-opacity: 0;
+    /* Safari 1.x */
+    -webkit-opacity: 0;
+    /* other webkit*/
+    transform: rotateY(90deg);
+    -moz-transform: rotateY(90deg);
+    -webkit-transform: rotateY(90deg);
+    -o-transform: rotateY(90deg);
+    -ms-transform: rotateY(90deg);
+  }
+  /* line 407, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li.hovered .product-container .left-block .new-box, ul.product_grid.grid li.hovered .product-container .left-block .sale-box, ul.product_grid.grid li:hover .product-container .left-block .new-box, ul.product_grid.grid li:hover .product-container .left-block .sale-box, ul.tm-carousel li.hovered .product-container .left-block .new-box, ul.tm-carousel li.hovered .product-container .left-block .sale-box, ul.tm-carousel li:hover .product-container .left-block .new-box, ul.tm-carousel li:hover .product-container .left-block .sale-box {
+    opacity: 1;
+  }
+  /* line 412, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li.hovered .product-container .right-block .ttproducthover, ul.product_grid.grid li:hover .product-container .right-block .ttproducthover, ul.tm-carousel li.hovered .product-container .right-block .ttproducthover, ul.tm-carousel li:hover .product-container .right-block .ttproducthover {
+    opacity: 1;
+  }
+  /* line 415, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li.hovered .product-container .right-block .ttproducthover div.button-container, ul.product_grid.grid li:hover .product-container .right-block .ttproducthover div.button-container, ul.tm-carousel li.hovered .product-container .right-block .ttproducthover div.button-container, ul.tm-carousel li:hover .product-container .right-block .ttproducthover div.button-container {
+    transform: translateX(0px);
+    transition: all 400ms ease-in-out 0s;
+  }
+  /* line 419, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li.hovered .product-container .right-block .ttproducthover div.wishlist, ul.product_grid.grid li:hover .product-container .right-block .ttproducthover div.wishlist, ul.tm-carousel li.hovered .product-container .right-block .ttproducthover div.wishlist, ul.tm-carousel li:hover .product-container .right-block .ttproducthover div.wishlist {
+    transform: translateX(0px);
+    transition: all 500ms ease-in-out 0s;
+  }
+  /* line 423, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li.hovered .product-container .right-block .ttproducthover div.compare, ul.product_grid.grid li:hover .product-container .right-block .ttproducthover div.compare, ul.tm-carousel li.hovered .product-container .right-block .ttproducthover div.compare, ul.tm-carousel li:hover .product-container .right-block .ttproducthover div.compare {
+    transform: translateX(0px);
+    transition: all 600ms ease-in-out 0s;
+  }
+  /* line 427, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li.hovered .product-container .right-block .ttproducthover div.ttquickview, ul.product_grid.grid li:hover .product-container .right-block .ttproducthover div.ttquickview, ul.tm-carousel li.hovered .product-container .right-block .ttproducthover div.ttquickview, ul.tm-carousel li:hover .product-container .right-block .ttproducthover div.ttquickview {
+    transform: translateX(0px);
+    transition: all 700ms ease-in-out 0s;
+  }
+  /* line 434, ../../../sass/modules/crossselling/crossselling.scss */
+  ul.product_grid.grid li.hovered .product-container .right-block .product-name a, ul.product_grid.grid li:hover .product-container .right-block .product-name a, ul.tm-carousel li.hovered .product-container .right-block .product-name a, ul.tm-carousel li:hover .product-container .right-block .product-name a {
+    color: #000000;
+  }
+}

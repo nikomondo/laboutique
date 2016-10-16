@@ -1,0 +1,98 @@
+@import "compass";
+@import "theme_variables";
+
+.socialsharing_product{
+	button{
+		border: 1px solid $base-border-color;
+		color: $base-body-color;
+		display: inline-block;
+		background:transparent;
+		float: none;
+		margin: 2px 0 5px;
+		padding: 8px 20px;
+		text-transform: uppercase;
+		width: 24%;
+		@media (min-width: $screen-md) and (max-width: $screen-md-max) {// min 992px max 1199px 
+			padding: 8px 0;
+		}
+		@media (max-width: $screen-sm-max) {// max 991px 
+			width: 38%;
+		}
+		@media (max-width: $screen-xs ) {// max 480px 
+			width: 49%;
+		}
+		&.focus{
+			background:none !important;
+		}
+		i{
+			width:22px;
+			@media (min-width: $screen-md) and (max-width: $screen-md-max) {// min 992px max 1199px 
+				width:14px;
+			}
+		}
+	}
+}
+
+
+//Social Sharing
+.btn-facebook, .btn-twitter, .btn-google-plus, .btn-pinterest {
+	&:hover {
+		border-color: $light-text-color;
+	}
+}
+
+.btn-facebook {
+	i {
+		color: #435f9f;
+	}
+	&:hover {
+		color: white;
+		background-color: #435f9f;
+		border-color: #435f9f;
+		i {
+			color: $light-text-color;
+		}
+	}
+}
+
+.btn-twitter {
+	i {
+		color: #00aaf0;
+	}
+	&:hover {
+		color: white;
+		background-color: #00aaf0;
+		border-color: #00aaf0;
+		i {
+			color: $light-text-color;
+		}
+	}
+}
+
+.btn-google-plus {
+	i {
+		color: #e04b34;
+	}
+	&:hover {
+		color: white;
+		background-color: #e04b34;
+		border-color: #e04b34;
+		i {
+			color: $light-text-color;
+		}
+	}
+}
+
+.btn-pinterest {
+	i {
+		color: #ce1f21;
+	}
+	&:hover {
+		color: $light-text-color;
+		background-color: #ce1f21;
+		border-color: #ce1f21;
+		i {
+			color: $light-text-color;
+		}
+	}
+}

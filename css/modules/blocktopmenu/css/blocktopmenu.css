@@ -1,0 +1,12 @@
+/* line 3, ../../../../sass/modules/blocktopmenu/css/blocktopmenu.scss */
+#block_top_menu {
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 991px) {
+  /* line 3, ../../../../sass/modules/blocktopmenu/css/blocktopmenu.scss */
+  #block_top_menu {
+    margin: 10px 0;
+    padding: 0 130px 0 0;
+  }
+}
